@@ -31,5 +31,5 @@ void Chromosome::draw()
 {
 	for (int i = 0; i < m_chromSize; i++)
 		cout << m_genes[i] << " ";
-	cout << " ==> " << m_fitness << " : " << m_fitness << endl;
+	cout << " ==> " << m_fitness << " : " << m_fitnessRate << endl;
 }
